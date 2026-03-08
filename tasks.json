@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Обновить от препода",
+      "type": "shell",
+      "command": "git",
+      "args": ["pull", "prepod", "main", "--allow-unrelated-histories"],
+      "group": "build",
+      "presentation": {"echo": true, "reveal": "always"}
+    },
+    {
+      "label": "Коммит и пуш",
+      "type": "shell",
+      "command": "git",
+      "args": ["add", "."],
+      "problemMatcher": []
+    }
+  ]
+}
