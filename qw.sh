@@ -2,10 +2,10 @@
 set -euo pipefail
 
 # Папка с репозиторием препода (mfua)
-TEACHER_REPO="/c/Users/dncik/Desktop/ИЗОТОВ/mfua"
+TEACHER_REPO="/c/Users/dncik/Desktop/distant/mfua"
 
 # Папка с твоим репозиторием (PITPO) 
-MY_REPO="/c/Users/dncik/Desktop/ИЗОТОВ/PITPO"
+MY_REPO="/c/Users/dncik/Desktop/distant/PITPO"
 
 echo "🔄 Обновление репозитория препода (mfua)..."
 cd "$TEACHER_REPO"
